@@ -8,6 +8,9 @@ import go from 'gojs';
 console.log(`window:`, window);
 console.log(`go:`, go);
 
+const $ = go.GraphObject.make;
+console.log(`FlowEditor: $: `, $);
+
 console.log(`process.env: `, process.env);
 if (process.env.REACT_APP_MODE == 'electron') {
     console.log(`Running in Electron: Filesystem access is enabled.`)
