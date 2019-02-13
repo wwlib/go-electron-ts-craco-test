@@ -1,0 +1,15 @@
+{
+    "name": "aaa",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [ "aaa" ],
+    "homepage": "https://aaa.net",
+    "license": "MIT",
+    "author": "aaa",
+    "files": [
+      "package.json",
+      "lib"
+    ],
+    "main": "lib/aaa.js",
+    "typings":  "lib/aaa.d.ts"
+  }
