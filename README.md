@@ -69,6 +69,12 @@ export default class TestFs {
 yarn
 ```
 
+#### run in electron
+```
+yarn build
+yarn start
+```
+
 #### web
 To build for the Web and automatically launch a browser window for development...
 
@@ -76,7 +82,7 @@ To build for the Web and automatically launch a browser window for development..
 yarn start:web
 ```
 
-#### electron
+#### develop with electron
 To build for the electron, launch an electron window and reload electron automatically while developing...
 ```
 yarn watch:electron
